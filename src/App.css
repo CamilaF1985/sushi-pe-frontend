@@ -58,15 +58,15 @@
 
 @keyframes backgroundChange {
   0% {
-    background-image: url('/src/assets/img/combinacion-6p.jpg');
+    background-image: url('../src/assets/img/combinacion-6p.jpg');
   }
   33% {
-    background-image: url('/src/assets/img/combinacion-1.jpg');
+    background-image: url('../src/assets/img/combinacion-1.jpg');
   }
   66% {
-    background-image: url('/src/assets/img/combinacion-4.jpg');
+    background-image: url('../src/assets/img/combinacion-4.jpg');
   }
   100% {
-    background-image: url('/src/assets/img/combinacion-6p.jpg');
+    background-image: url('../src/assets/img/combinacion-6p.jpg');
   }
 }
