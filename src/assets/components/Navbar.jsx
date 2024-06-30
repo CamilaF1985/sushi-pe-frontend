@@ -11,7 +11,7 @@ function Navbar() {
               <img className="logo-navbar" src={logo} alt="Logo" />
             </a>
             <button
-              className="navbar-toggler text-white"
+              className="navbar-toggler custom-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -19,7 +19,7 @@ function Navbar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <i className="fa fa-bars"></i>
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul className="navbar-nav">

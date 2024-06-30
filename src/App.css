@@ -20,9 +20,14 @@
   font-size: 24px;
 }
 
-.navbar-toggler {
-  color: white;           
-  border-color: white !important;  
+.navbar-toggler.custom-toggler {
+  border: 2px solid white; 
+  padding: 5px; 
+}
+
+.navbar-toggler.custom-toggler .fa-bars {
+  color: white;
+  font-size: 1.5rem; 
 }
 
 .logo-big {
@@ -34,41 +39,3 @@
   margin-right: 20px;
 }
 
-/*
-.imagen-fondo {
-  position: relative;
-  min-height: 400px;
-  z-index: 0;
-  overflow: hidden;
-}
-
-.imagen-fondo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 60rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.3;
-  z-index: -1;
-  animation: backgroundChange 15s infinite;
-}
-
-@keyframes backgroundChange {
-  0% {
-    background-image: url('../src/assets/img/combinacion-6p.jpg');
-  }
-  33% {
-    background-image: url('../src/assets/img/combinacion-1.jpg');
-  }
-  66% {
-    background-image: url('../src/assets/img/combinacion-4.jpg');
-  }
-  100% {
-    background-image: url('../src/assets/img/combinacion-6p.jpg');
-  }
-}
-  */
