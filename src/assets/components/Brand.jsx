@@ -3,18 +3,18 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import logo from '../img/logo-sushipe.png';
 import combinacion6p from '../img/combinacion-6p.jpg';
-import combinacion4 from '../img/combinacion-4.jpg';
-import combinacion1 from '../img/combinacion-1.jpg';
+import promo60 from '../img/promo-60.jpg';
+import promo25 from '../img/promo-25.jpg';
 
 const backgroundChange = keyframes`
   0% {
     background-image: url(${combinacion6p});
   }
   33% {
-    background-image: url(${combinacion1});
+    background-image: url(${promo25});
   }
   66% {
-    background-image: url(${combinacion4});
+    background-image: url(${promo60});
   }
   100% {
     background-image: url(${combinacion6p});

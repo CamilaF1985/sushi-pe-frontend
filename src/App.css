@@ -21,13 +21,13 @@
 }
 
 .navbar-toggler.custom-toggler {
-  border: 2px solid white; 
-  padding: 5px; 
+  border: 2px solid white;
+  padding: 5px;
 }
 
 .navbar-toggler.custom-toggler .fa-bars {
   color: white;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .logo-big {
@@ -39,3 +39,7 @@
   margin-right: 20px;
 }
 
+.card {
+  max-width: 540px;
+  color: black;
+}
